@@ -1,0 +1,63 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #493f83;
+    background-color: #e7e7ff;
+    line-height: 3.5;
+}
+header {
+    background-color: #162757;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: #493f83;
+}
+
+#my_hobbies ul {
+    display: flex; /* *чтобы элементы выстривались в ряд*/
+    justify-content: space-around;
+    list-style: none; 
+}
+#my_hobbies li {
+    text-align: center;
+    margin: 10px;
+}
+#my_hobbies img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    transition: transform 0.3s ease; /* Transition effect for scaling */
+}
+#my_hobbies span {
+    display: block; /* чтоб сделать заголовок блочным элементом */
+    margin-top: 8px; /* Добавьте отступ сверху для разделения с изображением */
+   
+}
+#my_hobbies img:hover{
+    transform : scale (1.1);
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;/* объединяет границы ячеек*/
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #b08cff;
+}
+th, td {
+    padding: 12px; /* 12 пикселей внутреннего отступа для ячеек таблицы. */
+    text-align: center; /* Убирает подчеркивание у ссылок. */
+}
+a {
+    color: #9548fa;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #947a9c;
+    color: white;
+    text-align: center;
+    /*padding: 10px 0;*/
+}
