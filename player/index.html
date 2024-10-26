@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="player">
+            <audio id="audio-player" hidden></audio>
+            <div class="player-top">
+                <img src="cover.jpg" alt="Обложка трека" id="track-cover">
+                <div class="current-track-info">
+                    <div class="controls">
+                        <button id="play-pause-btn">Play</button>
+                        <button id="next-btn">Next</button>
+                    </div>
+                    <div class="current-track">
+                        <h2 id="track-name">Название трека</h2>
+                        <h3 id="artist-name">Исполнитель</h3>
+                    </div>
+                </div>
+            </div>
+            <ul id="track-list">
+       
+            </ul>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
