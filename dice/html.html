@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="dice">
+        <h2 class = "dice-title"> DICE GAME</h2>
+        <div class ="row">
+            <div class ="col-6">
+                <img src ="images/dice1.png" alt ='dice' class = "img-dice">
+            </div>
+            <div class ="col-6">
+                <img src ="images/dice2.png" alt ="dice" class = "img-dice">
+            </div>
+        </div>
+        <h1 class = "head"></h1>
+        <button id ="dice-btn" onclick="dice_game()"> Start</button>
+        <h3 id="roll-counter">Roll Count: 0</h3>
+        <h3 id="sum">Sum: 0</h3>
+        <h3 id="win-message"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

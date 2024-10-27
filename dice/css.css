@@ -1,0 +1,40 @@
+body{
+    background-color: #798645;
+    font-family : Arial, Helvetica, sans-serif ;
+    text-align: center;
+    height : 1000vh;
+    position:relative;
+    overflow: hidden;
+    color: #B8001F;
+}
+.dice {
+    display:block;
+    position: relative;
+    padding: 100px 180px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    column-gap: 20px;
+}
+.col-6{
+    width: 50%;
+}
+
+.img-dice {
+   border-radius: 20px;
+
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
